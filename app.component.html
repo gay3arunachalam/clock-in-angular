@@ -1,0 +1,25 @@
+<body>
+  <div class="outerclock">
+    <div class="innerclock">
+      <div class="dot"></div>
+      <div
+        class="hour"
+        [ngStyle]="{ transform: 'rotate(' + hourrotate + 'deg)' }"
+      ></div>
+      <div
+        class="min"
+        [ngStyle]="{ transform: 'rotate(' + minrotate + 'deg)' }"
+      ></div>
+      <div
+        class="sec"
+        [ngStyle]="{ transform: 'rotate(' + secrotate + 'deg)' }"
+      ></div>
+    </div>
+    <div class="time">
+      <p>12</p>
+      <p>9</p>
+      <p>6</p>
+      <p>3</p>
+    </div>
+  </div>
+</body>
